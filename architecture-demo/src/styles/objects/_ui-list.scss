@@ -1,0 +1,14 @@
+@use "../settings/variables";
+
+.ui-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  &--horizontal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+  }
+}

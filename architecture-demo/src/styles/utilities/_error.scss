@@ -1,0 +1,5 @@
+@use "../settings/variables";
+
+.is-error {
+  color: variables.$danger !important;
+}
