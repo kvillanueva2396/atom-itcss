@@ -1,13 +1,9 @@
 <template>
-  <div>
-    <p class="is-error">{{ greetings }}</p>
-  </div>
+  <Header />
 </template>
 
 <script setup>
-import { ref } from 'vue';
-
-const greetings = ref('Hello!');
+import { Header } from '@/components';
 </script>
 
 <style lang="scss" scoped></style>
