@@ -13,16 +13,16 @@
           <a href="#" class="header__link header__link--separator">About Us</a>
         </li>
         <li>
-          <Button tag="a" theme="primary">Sign In</Button>
+          <a type="button" class="btn btn--s btn--primary" href="#">
+            Sign In
+          </a>
         </li>
       </ul>
     </nav>
   </header>
 </template>
 
-<script setup>
-import { Button } from '@/components';
-</script>
+<script setup></script>
 
 <style lang="scss" scoped>
 @use '@/styles/settings/variables';
@@ -51,6 +51,10 @@ import { Button } from '@/components';
     font-weight: 600;
     font-size: variables.$fs-menu;
     text-decoration: none;
+
+    &:hover {
+      color: variables.$pink-button;
+    }
 
     &--separator {
       margin-right: 2.25rem;

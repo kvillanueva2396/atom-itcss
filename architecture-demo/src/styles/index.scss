@@ -11,5 +11,8 @@
 @use "objects/container";
 @use "objects/ui-list";
 
+//Atoms
+@use "atoms/button";
+
 //Utilities
 @use "utilities/error";
