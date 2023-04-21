@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Angular",
+    "description": "Angular is a platform for building mobile and desktop web applications. Join the community of millions of developers who build compelling user interfaces with Angular.",
+    "img": "src/assets/icons/angular-icon.png",
+    "theme": "angular"
+  },
+  {
+    "id": 2,
+    "title": "React",
+    "description": "React is an open-source, front end, JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies.",
+    "img": "src/assets/icons/react-icon.png",
+    "theme": "react"
+  },
+  {
+    "id": 3,
+    "title": "Vue",
+    "description": "Vue is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable.",
+    "img": "src/assets/icons/vue-icon.png",
+    "theme": "vue"
+  }
+]

@@ -16,7 +16,7 @@
   }
 
   &--md {
-    padding: 1rem 3rem;
+    padding: 1.25rem 3rem;
   }
 
   &--primary {
@@ -24,8 +24,44 @@
     background: variables.$blue-button;
 
     &:hover,
-    &:focus-visible {
+    &:focus {
       transform: scale(1.2, 1.2);
+    }
+  }
+
+  &--angular {
+    color: variables.$color-angular;
+    background: variables.$white;
+    border: 0.125rem solid variables.$color-angular;
+
+    &:hover,
+    &:focus {
+      color: variables.$white;
+      background: variables.$color-angular;
+    }
+  }
+
+  &--react {
+    color: variables.$color-react;
+    background: variables.$white;
+    border: 0.125rem solid variables.$color-react;
+
+    &:hover,
+    &:focus {
+      color: variables.$white;
+      background: variables.$color-react;
+    }
+  }
+
+  &--vue {
+    color: variables.$color-vue;
+    background: variables.$white;
+    border: 0.125rem solid variables.$color-vue;
+
+    &:hover,
+    &:focus {
+      color: variables.$white;
+      background: variables.$color-vue;
     }
   }
 }

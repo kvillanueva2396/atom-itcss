@@ -51,7 +51,6 @@
 
   &__text {
     font-size: variables.$fs-slogan-text;
-    padding-left: 1rem;
     text-align: center;
   }
 

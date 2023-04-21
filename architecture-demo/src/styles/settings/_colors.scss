@@ -3,8 +3,11 @@ $_black: #000;
 $_black2: #1b1b24;
 $_black3: #282729;
 $_red: #f32013;
+$_red2: #b42c34;
 $_pink: #df487a;
 $_blue: #214ab0;
+$_light-blue: #64dcfc;
+$_light-green: #3cbb84;
 
 $white: $_white;
 $danger: $_red;
@@ -12,3 +15,6 @@ $blue-button: $_blue;
 $pink-button: $_pink;
 $text: $_black2;
 $shadow: $_black3;
+$color-angular: $_red2;
+$color-react: $_light-blue;
+$color-vue: $_light-green;
