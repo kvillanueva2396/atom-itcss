@@ -1,14 +1,13 @@
 <template>
   <div>
-      <p class="is-error">{{ greetings }}</p>
+    <p class="is-error">{{ greetings }}</p>
   </div>
 </template>
 
 <script setup>
 import { ref } from 'vue';
+
 const greetings = ref('Hello!');
 </script>
 
-
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
