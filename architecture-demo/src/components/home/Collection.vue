@@ -30,4 +30,12 @@ onMounted(async () => {
     gap: 1.3rem;
   }
 }
+
+@media (max-width: 955px) {
+  .collection {
+    &__cards {
+      column-width: auto;
+    }
+  }
+}
 </style>

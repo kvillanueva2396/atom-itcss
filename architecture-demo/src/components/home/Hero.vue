@@ -64,7 +64,7 @@
   }
 }
 
-@media (max-width: 906px) {
+@media (max-width: 955px) {
   .slogan {
     &-info {
       width: 100%;
