@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="cover-background cover-background--white">
     <div class="hero container">
       <h2 class="hero__title">Build your dream Workstation.</h2>
       <div class="slogan">
@@ -60,7 +60,7 @@
   }
 
   &__img {
-    max-height: variables.$slogan;
+    max-height: variables.$size-slogan-image;
     width: 60%;
   }
 }
